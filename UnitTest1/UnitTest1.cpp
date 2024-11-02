@@ -2,7 +2,9 @@
 #include "CppUnitTest.h"
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
+
 extern "C" const char* result(const char* player1, const char* player2);
+
 namespace UnitTest1
 {
 	TEST_CLASS(UnitTest1)
